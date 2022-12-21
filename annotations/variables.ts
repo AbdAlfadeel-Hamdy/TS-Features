@@ -24,3 +24,6 @@ const json = '{"x": 10, "y": 20, "z":30}';
 const coords: { x: number; y: number } = JSON.parse(json);
 console.log(coords);
 const random: (string | number)[] = ["3", 3];
+let words = ["dog", "cat"];
+let found: boolean;
+found = true;
