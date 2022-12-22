@@ -19,7 +19,6 @@ const printNumber = (i) => {
 };
 
 printNumber(5);
-printNumber("a7a");
 
 const json = '{"x": 10, "y": 20, "z":30}';
 const coords: { x: number; y: number } = JSON.parse(json);
