@@ -14,11 +14,12 @@ let point: {
   x: 3,
   y: 4,
 };
-const printNumber: (i: number) => void = (i: number) => {
+const printNumber = (i) => {
   console.log(i);
 };
 
 printNumber(5);
+printNumber("a7a");
 
 const json = '{"x": 10, "y": 20, "z":30}';
 const coords: { x: number; y: number } = JSON.parse(json);
