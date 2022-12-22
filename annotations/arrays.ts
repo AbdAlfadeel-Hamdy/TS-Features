@@ -1,0 +1,12 @@
+const carMakers = ["ford", "BMW", "Toyota"];
+const dates = [new Date(), new Date()];
+const carsByMake: string[][] = [];
+carsByMake.push(["toyota"]);
+carsByMake.push([]);
+console.log(carsByMake);
+const car = carMakers[2];
+// carMakers.push(6);
+carMakers.map((car: string): void => console.log(car));
+const mixed = [3, "hello", true];
+// mixed.push({});
+// mixed.push(new Date());
