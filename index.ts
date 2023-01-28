@@ -7,3 +7,5 @@ const person = {
 class Color {}
 
 const red = new Color();
+
+console.log("Hello");
